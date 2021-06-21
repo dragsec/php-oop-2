@@ -7,12 +7,12 @@ class smartphoneProduct extends Product {
     protected $modello;
 
 
-    function __construct($name, $price){
+    function __construct($name, $quantity, $price){
 
-        parent::__construct($name, $quantity, $price, $marca,  $modello);
+        parent::__construct($name, $quantity, $price, $marca, $modello);
     }
 
 
 
-    
+
 }
