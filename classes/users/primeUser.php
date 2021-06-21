@@ -8,5 +8,7 @@ class PrimeUser extends User {
     function __construct($name, $email) {
         parent::__construct($name, $email);
 
+        
+
     }
 }
