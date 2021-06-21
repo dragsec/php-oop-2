@@ -23,11 +23,9 @@ class creditCard extends Payment {
         $this->number = $value;
     }
 
-
     public function setScadenza($value) {
         $this->scadenza = $value;
     }
-
 
     public function setCvv($value) {
     
@@ -35,15 +33,14 @@ class creditCard extends Payment {
     }
 
 
+
     public function getNumber() {
         return $this->number;
     }
 
-
     public function getScadenza() {
         return $this->date;
     }
-
 
     public function getCvv() {
         return $this->cvv;

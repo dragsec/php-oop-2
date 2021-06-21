@@ -12,7 +12,22 @@ class smartphoneProduct extends Product {
         parent::__construct($name, $quantity, $price, $marca, $modello);
     }
 
+    public function setMarca($value){
+        $this->marca = $value;
+    }
 
+    public function setModello($value){
+        $this->modello = $value;
+    }
+
+    
+    public function getMarca($value){
+        return $this->marca;
+    }
+
+    public function getModello($value){
+        return $this->modello;
+    }
 
 
 }
