@@ -12,16 +12,40 @@ class creditCard extends Payment {
 
         parent::__construct($name, $date);
 
-        $this->__number($number);
-        $this->__scadenza($scadenza);
-        $this->__cvv($cvv);
+        $this->setNumber($number);
+        $this->setScadenza($scadenza);
+        $this->setCvv($cvv);
     }
 
 
+    public function setNumber($value) {
+
+        $this->number = $value;
+    }
 
 
+    public function setScadenza($value) {
+        $this->scadenza = $value;
+    }
 
 
+    public function setCvv($value) {
+    
+        $this->cvv = $value;
+    }
 
 
+    public function getNumber() {
+        return $this->number;
+    }
+
+
+    public function getScadenza() {
+        return $this->date;
+    }
+
+
+    public function getCvv() {
+        return $this->cvv;
+    }
 }
