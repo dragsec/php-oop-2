@@ -1,15 +1,15 @@
 <?php
 
-require_once(__DIR__ . "../product.php");
+require_once(__DIR__ . "/../product.php"); 
 
 class smartphoneProduct extends Product {
     protected $marca;
     protected $modello;
 
 
-    function __construct($name, $quantity, $price){
+    function __construct($name, $quantity, $price, $marca, $modello){
 
-        parent::__construct($name, $quantity, $price, $marca, $modello);
+        parent::__construct($name, $quantity, $price);
     }
 
     public function setMarca($value){

@@ -1,11 +1,11 @@
 <?php
 
 
-
 class User {
     protected $name;
     protected $email;
-    protected $primeSub = false;
+    protected $primeSub;
+
 
     function __construct($name, $email) {
         $this->name = $name;
@@ -16,8 +16,3 @@ class User {
     $this->primeSub = $primeSub;
     }
 }
-
-
-/* $user = new User ("", "");
-
-$user->setPrime(new primeSub()) */
