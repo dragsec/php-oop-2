@@ -2,7 +2,7 @@
 
 require_once "./classes/products/smartphoneProduct.php";
 require_once "./classes/user.php";
-require_once "./classes/cart.php"
+require_once "./classes/cart.php";
 require_once "./classes/users/primeUser.php";
 
 $user = new PrimeUser("Mario Rossi", "mario.rossi@gmail.com");
