@@ -13,7 +13,7 @@ $creditCard = new CreditCard(1234123412341234, '12/2012', 666);
 $SGS21 =new SmartphoneProduct("Galaxy", 1, 950, "S21", "Samsung");
 $cart->addProduct($SGS21);
 
-$redmi9 = new SmartphoneProduct("redmi", 1, 200, "9", "Xiaomi");
+$redmi9 = new SmartphoneProduct("Redmi", 1, 200, "9", "Xiaomi");
 $cart->addProduct($redmi9);
 
 var_dump($cart);

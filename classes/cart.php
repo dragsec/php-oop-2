@@ -6,8 +6,8 @@ class Cart {
     private $products;
 
     function __construct($user, $payment, $products) {
-        $this->$name = $name;
-        $this->$quantity = $quantity;
-        $this->$price = $price;
+        $this->name = $name;
+        $this->quantity = $quantity;
+        $this->price = $price;
     }
 }

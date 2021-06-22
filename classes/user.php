@@ -8,8 +8,8 @@ class User {
     protected $primeSub = false;
 
     function __construct($name, $email) {
-        $this->$name = $name;
-        $this->$email = $email;
+        $this->name = $name;
+        $this->email = $email;
     }
 
     public function setPrime($primeSub){
